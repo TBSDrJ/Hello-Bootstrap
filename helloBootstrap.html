@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dr. J's Bootstrap Demo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    hr {
+      border-top:10px solid gray;
+      border-bottom:10px solid red;
+      border-left:50px solid blue;
+      border-right:50px solid blue;
+    }
+    .empty-row {
+      padding-top: 0.5in;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="bg-dark">My Students</h1>
+
+  <h2>class <code>.container</code>, manual columns</h2>
+
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Claire Zhou.jpg" /></div>
+      <div class="row"><caption>Claire Zhou</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Drew Kessler.jpg" /></div>
+      <div class="row"><caption>Drew Kessler</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Ethan Chuang.jpg" /></div>
+      <div class="row"><caption>Ethan Chuang</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Evan Ren.jpg" /></div>
+      <div class="row"><caption>Evan Ren</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Matthew Lee.jpg" /></div>
+      <div class="row"><caption>Matthew Lee</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Michael Zeng.jpg" /></div>
+      <div class="row"><caption>Michael Zeng</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Michelle Wang.jpg" /></div>
+      <div class="row"><caption>Michelle Wang</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Mohamed Samb.jpg" /></div>
+      <div class="row"><caption>Mohamed Samb</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Nicholas Chen.jpg" /></div>
+      <div class="row"><caption>Nicholas Chen</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Nicholas Liu.jpg" /></div>
+      <div class="row"><caption>Nicholas Liu</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Rolan Guang.jpg" /></div>
+      <div class="row"><caption>Rolan Guang</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Stanley Wei.jpg" /></div>
+      <div class="row"><caption>Stanley Wei</caption></div>
+    </div>
+  </div>
+</div>
+
+<hr />
+
+<div class="container-fluid">
+
+  <h2>class <code>.container-fluid</code>, manual columns</h2>
+
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Claire Zhou.jpg" /></div>
+      <div class="row"><caption>Claire Zhou</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Drew Kessler.jpg" /></div>
+      <div class="row"><caption>Drew Kessler</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Ethan Chuang.jpg" /></div>
+      <div class="row"><caption>Ethan Chuang</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Evan Ren.jpg" /></div>
+      <div class="row"><caption>Evan Ren</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Matthew Lee.jpg" /></div>
+      <div class="row"><caption>Matthew Lee</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Michael Zeng.jpg" /></div>
+      <div class="row"><caption>Michael Zeng</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Michelle Wang.jpg" /></div>
+      <div class="row"><caption>Michelle Wang</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Mohamed Samb.jpg" /></div>
+      <div class="row"><caption>Mohamed Samb</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Nicholas Chen.jpg" /></div>
+      <div class="row"><caption>Nicholas Chen</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Nicholas Liu.jpg" /></div>
+      <div class="row"><caption>Nicholas Liu</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Rolan Guang.jpg" /></div>
+      <div class="row"><caption>Rolan Guang</caption></div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <div class="row"><img src="Stanley Wei.jpg" /></div>
+      <div class="row"><caption>Stanley Wei</caption></div>
+    </div>
+  </div>
+</div>
+
+<hr />
+
+<div class="container">
+
+  <h2>class <code>.container</code>, auto columns</h2>
+
+  <div class="row">
+    <div class="col">
+      <div class="row"><img src="Claire Zhou.jpg" /></div>
+      <div class="row"><caption>Claire Zhou</caption></div>
+    </div>
+    <div class="col">
+      <div class="row"><img src="Drew Kessler.jpg" /></div>
+      <div class="row"><caption>Drew Kessler</caption></div>
+    </div>
+    <div class="col">
+      <div class="row"><img src="Ethan Chuang.jpg" /></div>
+      <div class="row"><caption>Ethan Chuang</caption></div>
+    </div>
+    <div class="col">
+      <div class="row"><img src="Evan Ren.jpg" /></div>
+      <div class="row"><caption>Evan Ren</caption></div>
+    </div>
+    <div class="col">
+      <div class="row"><img src="Matthew Lee.jpg" /></div>
+      <div class="row"><caption>Matthew Lee</caption></div>
+    </div>
+    <div class="col">
+      <div class="row"><img src="Michael Zeng.jpg" /></div>
+      <div class="row"><caption>Michael Zeng</caption></div>
+    </div>
+    <div class="col">
+      <div class="row"><img src="Michelle Wang.jpg" /></div>
+      <div class="row"><caption>Michelle Wang</caption></div>
+    </div>
+    <div class="col">
+      <div class="row"><img src="Mohamed Samb.jpg" /></div>
+      <div class="row"><caption>Mohamed Samb</caption></div>
+    </div>
+    <div class="col">
+      <div class="row"><img src="Nicholas Chen.jpg" /></div>
+      <div class="row"><caption>Nicholas Chen</caption></div>
+    </div>
+    <div class="col">
+      <div class="row"><img src="Nicholas Liu.jpg" /></div>
+      <div class="row"><caption>Nicholas Liu</caption></div>
+    </div>
+    <div class="col">
+      <div class="row"><img src="Rolan Guang.jpg" /></div>
+      <div class="row"><caption>Rolan Guang</caption></div>
+    </div>
+    <div class="col">
+      <div class="row"><img src="Stanley Wei.jpg" /></div>
+      <div class="row"><caption>Stanley Wei</caption></div>
+    </div>
+  </div>
+
+  <hr>
+
+  <h2>class <code>.container</code>, full- or half-screen</h2>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-6">
+          This is some text about my students.  I don't really know what to say, so I'll just ramble aimlessly.  I know I really want to say how much I appreciate that they are kind, and I enjoy spending time with them, but I'm never quite sure how to say that.
+        </div>
+        <div class="col-6">
+          <img src="Claire Zhou.jpg" />
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-6">
+          This is some text about my students.  I don't really know what to say, so I'll just ramble aimlessly.  I know I really want to say how much I appreciate that they are kind, and I enjoy spending time with them, but I'm never quite sure how to say that.
+        </div>
+        <div class="col-6">
+          <img src="Drew Kessler.jpg" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row empty-row"></div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-6">
+          <img src="Ethan Chuang.jpg" />
+        </div>
+        <div class="col-6">
+          This is some text about my students.  I don't really know what to say, so I'll just ramble aimlessly.  I know I really want to say how much I appreciate that they are kind, and I enjoy spending time with them, but I'm never quite sure how to say that.
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-6">
+          <img src="Evan Ren.jpg" />
+        </div>
+        <div class="col-6">
+          This is some text about my students.  I don't really know what to say, so I'll just ramble aimlessly.  I know I really want to say how much I appreciate that they are kind, and I enjoy spending time with them, but I'm never quite sure how to say that.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row empty-row"></div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-6">
+          This is some text about my students.  I don't really know what to say, so I'll just ramble aimlessly.  I know I really want to say how much I appreciate that they are kind, and I enjoy spending time with them, but I'm never quite sure how to say that.
+        </div>
+        <div class="col-6">
+          <img src="Matthew Lee.jpg" />
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-6">
+          This is some text about my students.  I don't really know what to say, so I'll just ramble aimlessly.  I know I really want to say how much I appreciate that they are kind, and I enjoy spending time with them, but I'm never quite sure how to say that.
+        </div>
+        <div class="col-6">
+          <img src="Michael Zeng.jpg" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row empty-row"></div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-6">
+          <img src="Michelle Wang.jpg" />
+        </div>
+        <div class="col-6">
+          This is some text about my students.  I don't really know what to say, so I'll just ramble aimlessly.  I know I really want to say how much I appreciate that they are kind, and I enjoy spending time with them, but I'm never quite sure how to say that.
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-6">
+          <img src="Mohamed Samb.jpg" />
+        </div>
+        <div class="col-6">
+          This is some text about my students.  I don't really know what to say, so I'll just ramble aimlessly.  I know I really want to say how much I appreciate that they are kind, and I enjoy spending time with them, but I'm never quite sure how to say that.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row empty-row"></div>
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-6">
+          This is some text about my students.  I don't really know what to say, so I'll just ramble aimlessly.  I know I really want to say how much I appreciate that they are kind, and I enjoy spending time with them, but I'm never quite sure how to say that.
+        </div>
+        <div class="col-6">
+          <img src="Nicholas Chen.jpg" />
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-6">
+          This is some text about my students.  I don't really know what to say, so I'll just ramble aimlessly.  I know I really want to say how much I appreciate that they are kind, and I enjoy spending time with them, but I'm never quite sure how to say that.
+        </div>
+        <div class="col-6">
+          <img src="Nicholas Liu.jpg" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row empty-row"></div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-6">
+          <img src="Rolan Guang.jpg" />
+        </div>
+        <div class="col-6">
+          This is some text about my students.  I don't really know what to say, so I'll just ramble aimlessly.  I know I really want to say how much I appreciate that they are kind, and I enjoy spending time with them, but I'm never quite sure how to say that.
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-6">
+          <img src="Stanley Wei.jpg" />
+        </div>
+        <div class="col-6">
+          This is some text about my students.  I don't really know what to say, so I'll just ramble aimlessly.  I know I really want to say how much I appreciate that they are kind, and I enjoy spending time with them, but I'm never quite sure how to say that.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row empty-row"></div>
+
+
+</div>
+
+</body>
+</html>
